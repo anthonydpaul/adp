@@ -10,7 +10,7 @@
     "gulp-uncss": "^0.4.1",
     "broccoli-uncss": "^0.1.0"
   },
-  "description": "adp's website",
+  "description": "A prototype of my personal website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
