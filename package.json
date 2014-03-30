@@ -1,0 +1,33 @@
+{
+  "name": "adp-website",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-uncss": "^0.3.2",
+    "gulp-uncss": "^0.4.1",
+    "broccoli-uncss": "^0.1.0"
+  },
+  "description": "adp's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anthonydpaul",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^0.4.4",
+    "gulp": "^3.6.0",
+    "easyimage": "^0.1.6",
+    "broccoli": "^0.5.0",
+    "brunch": "^1.7.13",
+    "gruntfile": "^0.1.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-qunit": "^0.4.0",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
