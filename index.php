@@ -360,16 +360,16 @@ foreach($clients AS $client){
                     <ul><?php
 
 $events = array(
-    array( 'date1' => "2014-09-20", 'date2' => "",              'url' => "mobileuxcamp.com",            'title' => "Mobile UX Camp DC",                 'activity' => ""),
-    array( 'date1' => "2014-10-11", 'date2' => "",              'url' => "www.accessibilitycampdc.org", 'title' => "Accessibility Camp DC",             'activity' => "sponsoring"),
-    array( 'date1' => "2014-10-17", 'date2' => "",              'url' => "2014.userfocus.org",          'title' => "UXPA DC User Focus",                'activity' => "employer sponsoring"),
-    array( 'date1' => "2014-10-18", 'date2' => "",              'url' => "2014.baltimore.wordcamp.org", 'title' => "WordCamp Baltimore",                'activity' => "speaking"),
-    array( 'date1' => "2014-10-25", 'date2' => "2014-10-26",    'url' => "2014.sf.wordcamp.org",        'title' => "WordCamp San Francisco",            'activity' => ""),
-    array( 'date1' => "2014-11-12", 'date2' => "2014-11-14",    'url' => "world.phparch.com",           'title' => "PHP World DC",                      'activity' => ""),
-    array( 'date1' => "2015-01-10", 'date2' => "",              'url' => "uxcampdc.com",                'title' => "UX Camp DC",                        'activity' => "speaking"),
-    array( 'date1' => "2015-01-31", 'date2' => "",              'url' => "www.aafroanoke.org/addys/",   'title' => "AAF Roanoke ADDYs",                 'activity' => "judging"),
-    array( 'date1' => "2015-02-09", 'date2' => "2015-02-11",    'url' => "interaction15.ixda.org",      'title' => "IxDA Interaction15, San Francisco", 'activity' => ""),
-    array( 'date1' => "2015-03-13", 'date2' => "2015-03-17",    'url' => "sxsw.com/interactive",        'title' => "SXSW Interactive",                  'activity' => "")
+    array( 'date1' => "2014-09-20", 'date2' => "",              'url' => "mobileuxcamp.com",            'title' => "Mobile UX Camp DC",         'location' => "",                   'activity' => ""),
+    array( 'date1' => "2014-10-11", 'date2' => "",              'url' => "www.accessibilitycampdc.org", 'title' => "Accessibility Camp DC",     'location' => "",                   'activity' => "sponsoring"),
+    array( 'date1' => "2014-10-17", 'date2' => "",              'url' => "2014.userfocus.org",          'title' => "UXPA DC User Focus",        'location' => "",                   'activity' => "employer sponsoring"),
+    array( 'date1' => "2014-10-18", 'date2' => "",              'url' => "2014.baltimore.wordcamp.org", 'title' => "WordCamp Baltimore",        'location' => "",                   'activity' => "speaking"),
+    array( 'date1' => "2014-10-25", 'date2' => "2014-10-26",    'url' => "2014.sf.wordcamp.org",        'title' => "WordCamp San Francisco",    'location' => "",                   'activity' => ""),
+    array( 'date1' => "2014-11-12", 'date2' => "2014-11-14",    'url' => "world.phparch.com",           'title' => "PHP World DC",              'location' => "",                   'activity' => ""),
+    array( 'date1' => "2015-01-10", 'date2' => "",              'url' => "uxcampdc.com",                'title' => "UX Camp DC",                'location' => "",                   'activity' => "speaking"),
+    array( 'date1' => "2015-01-31", 'date2' => "",              'url' => "www.aafroanoke.org/addys/",   'title' => "AAF ADDYs",                 'location' => "Roanoke, VA",        'activity' => "judging"),
+    array( 'date1' => "2015-02-09", 'date2' => "2015-02-11",    'url' => "interaction15.ixda.org",      'title' => "IxDA Interaction15",        'location' => "San Francisco, CA",  'activity' => ""),
+    array( 'date1' => "2015-03-13", 'date2' => "2015-03-17",    'url' => "sxsw.com/interactive",        'title' => "SXSW Interactive",          'location' => "Austin, TX",         'activity' => "")
 );
 
 foreach($events AS $item){
