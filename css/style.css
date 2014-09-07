@@ -1092,6 +1092,11 @@ body{
     color: #4e4e4e;
     padding-bottom: 50px;
     padding-top: 90px;
+    font-size: 18px;
+}
+
+#slide-6 .content-row{
+    text-align: left;
 }
 
 @media (max-width: 767px){
@@ -1107,9 +1112,11 @@ body{
 }
 
 #slide-6 a{
+/* 
     color: inherit;
     outline: none;
     text-decoration: none;
+ */
 }
 
 @media (max-width: 767px){

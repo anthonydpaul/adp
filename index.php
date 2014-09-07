@@ -295,24 +295,24 @@ foreach($clients AS $client){
                 <div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
                 <div class="col-12 col-sm-10 font-light">
 
-                <p>My history in shaping interactive experiences predates the birth of Google. Raised a traditional artist and diving into computers in the 80s, I was designing, coding, and producing animations for my first (hideous) websites in the 90s. This escalated into freelance work that lasted through college, where I discovered my love for navigation psychology and human behavior. I went on to earn a science degree in <em>visual communication design</em> on paper (Go <a href="http://design.osu.edu" target="_blank" title="Learn about The Ohio State University's Department of Design">Bucks</a>!), unofficially triple-majoring in linguistics and web development as well. While in school, I declared an undergraduate research topic in wayfinding, sought out professional mentors, organized field studies, presented research findings at conferences, studied abroad a few times, and was even invited to teach web development courses to my peers.</p>
-                
-                
+                    <p>My history in shaping interactive experiences predates the birth of Google. Raised a traditional artist and diving into computers in the 80s, I was hacking together my first rickshaw websites in the 90s. This escalated into freelance work that lasted through college, where I discovered my love for cognitive and behavioral sciences. I went on to earn a science degree in <em>visual communication design</em> (Go <a href="http://design.osu.edu" target="_blank" title="Learn about The Ohio State University's Department of Design">Bucks</a>!), with supplementary studies in linguistics and web development. While in school, I declared an undergraduate research topic in wayfinding, shadowed professional mentors, organized field studies, presented research findings at conferences, studied abroad a few times, and was even invited to teach web development courses to my peers.</p>
 
-                <p>Today, I tend to spend less time in Photoshop and PHP, and more time streamlining agency-side processes, creating new/reusable specification tools, elevating quality control, working directly with clients to identify opportunities, and prioritizing project goals to build sustainable tools that grow alongside brands and audiences. Outside of work, I spend a lot of time cultivating professional Meetup groups and conferences in both the DC and Baltimore areas&mdash;speaking when I can, sponsoring, and otherwise supporting my fellow organizers as much as possible. As time permits, my side projects consist of being a Pacific War historian (specifically for <a href="http://www.yms299.org" target="_blank" title="Learn more about the yard minesweepers of WWII">Naval minesweepers</a>), a genealogist, an aspiring chef, an urban homesteader, and a humble student of world cultures.</p>
+                    <p>In my early professional career, I filled the roles of senior UI designer blended with full-stack developer—naturally segueing into strategic support and project specification services. Today, I tend to spend less time in Photoshop and PHP, and more time working directly with clients to identify business and process opportunities, defining and prototyping impactful, interactive, and engaging experiences.</p>
 
-                <h3>Agency Life</h3>
+                    <p>Outside of work, I spend a lot of time cultivating professional Meetup groups and conferences in both the DC and Baltimore areas&mdash;speaking when I can, sponsoring, and otherwise supporting my fellow organizers as much as possible. As time permits, my side projects consist of being a Pacific War historian (specifically for <a href="http://www.yms299.org" target="_blank" title="Learn more about the yard minesweepers of WWII">Naval minesweepers</a>), a genealogist, an aspiring chef, an urban homesteader, and a humble student of world cultures.</p>
 
-                <p>Currently <em>senior user experience designer</em> at the national agency <a href="http://www.eightshapes.com" target="_blank" title="Learn more about EightShapes">EightShapes</a>
+                    <h3>Agency Life</h3>
 
-                <h3>Notable past agencies</h3>
-                
-                <p style="color:red;">At <a href="http://www.adgcreative.com" target="_blank" title="Learn more about ADG Creative">ADG Creative</a>, a Baltimore/DC agency, I was brought on as the senior-most user experience strategist, to hone our practice and expand agency offerings. Serving primarily large professional services firms and the U.S. Federal Government, ...</p>
+                    <ul>
+                        <li><?php echo ((date('Y')-2014) > 1 ? (date('Y')-2014). ' years' : '1 year'); ?> &ndash; currently Senior UX Designer at <a href="http://www.eightshapes.com" target="_blank" title="Learn more about EightShapes">EightShapes</a> (DC)
+    <!--                     <br>Senior User Experience Designer: <span>web design, UI development, product strategy, UX specification</span> --></li>
 
-                <p>Moving to DC in 2006, I concluded my freelance projects and transitioned into the agency world via <a href="http://www.fathomcreative.com" target="_blank" title="Learn more about Fathom Creative">Fathom Creative</a>&mdash;mentoring with the best in client-relations, project management, interactive art direction, and digital strategy. In my five years at Fathom, I and our inspiring teams transformed the agency from a talented print shop into one of the premier interactive agencies in DC&mdash;winning and producing innovative work against much larger and more established area agencies. I&rsquo;d grown from designer and developer, into a bridge across disciplines, uniquely positioned for client and team advisement. The user experience and mobile fields were just beginning to enter our vocabulary, and with that I explored new challenges in 2011.</p>
-                
+                        <li>3 years &ndash; formerly Senior Digital Strategist at <a href="http://www.adgcreative.com" target="_blank" title="Learn more about ADG Creative">ADG Creative</a> (Fort Meade, MD)
+    <!--                     <br>Senior Digital Strategist: <span>full-stack (LAMP/UI) development, product strategy, UX specification</span> --></li>
 
-
+                        <li>5 years &ndash; formerly Technical Lead at <a href="http://www.fathomcreative.com" target="_blank" title="Learn more about Fathom Creative">Fathom Creative</a> (DC)
+    <!--                     <br>Technical Lead: <span>print/web design, full-stack (LAMP/UI) development, product strategy, UX specification</span> --></li>
+                    </ul>
                 </div>
                 <div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
             </div>
@@ -350,6 +350,39 @@ foreach($clients AS $client){
                     <a href="http://www.pinterest.com/anthonydpaul/" target="_blank" title="Follow on Pinterest"><img src="images/social-pinterest.png" alt="Pinterest" /></a>
                 </div>
                 <div class="col-sm-1 hidden-sm">&nbsp;</div>
+            </div>
+            <div class="row content-row">
+                <div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
+                <div class="col-12 col-sm-10 font-light">
+
+                    <h3>Up Next</h3>
+
+                    <ul><?php
+
+$events = array(
+    array( 'date1' => "2014-09-20", 'date2' => "",              'url' => "mobileuxcamp.com",            'title' => "Mobile UX Camp DC",                 'activity' => ""),
+    array( 'date1' => "2014-10-11", 'date2' => "",              'url' => "www.accessibilitycampdc.org", 'title' => "Accessibility Camp DC",             'activity' => "sponsoring"),
+    array( 'date1' => "2014-10-17", 'date2' => "",              'url' => "2014.userfocus.org",          'title' => "UXPA DC User Focus",                'activity' => "employer sponsoring"),
+    array( 'date1' => "2014-10-18", 'date2' => "",              'url' => "2014.baltimore.wordcamp.org", 'title' => "WordCamp Baltimore",                'activity' => "speaking"),
+    array( 'date1' => "2014-10-25", 'date2' => "2014-10-26",    'url' => "2014.sf.wordcamp.org",        'title' => "WordCamp San Francisco",            'activity' => ""),
+    array( 'date1' => "2014-11-12", 'date2' => "2014-11-14",    'url' => "world.phparch.com",           'title' => "PHP World DC",                      'activity' => ""),
+    array( 'date1' => "2015-01-10", 'date2' => "",              'url' => "uxcampdc.com",                'title' => "UX Camp DC",                        'activity' => "speaking"),
+    array( 'date1' => "2015-01-31", 'date2' => "",              'url' => "www.aafroanoke.org/addys/",   'title' => "AAF Roanoke ADDYs",                 'activity' => "judging"),
+    array( 'date1' => "2015-02-09", 'date2' => "2015-02-11",    'url' => "interaction15.ixda.org",      'title' => "IxDA Interaction15, San Francisco", 'activity' => ""),
+    array( 'date1' => "2015-03-13", 'date2' => "2015-03-17",    'url' => "sxsw.com/interactive",        'title' => "SXSW Interactive",                  'activity' => "")
+);
+
+foreach($events AS $item){
+    $tempdate1 = date('M', strtotime($item['date1']));
+    $tempdate2 = date('d', strtotime($item['date1'])). ($item['date2'] ? '&ndash;' .date('d', strtotime($item['date2'])) : '');
+    
+    echo "                        <li>" .$tempdate1. ' ' .$tempdate2. " <a href=\"http://" .$item['url']. "\" target=\"_blank\" title=\"More information about " .$item['title']. "\">" .$item['title']. "</a>" .($item['activity'] ? ' (' .$item['activity']. ')' : ''). "</li>\n";
+}
+
+?>
+                    </ul>
+                </div>
+                <div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
             </div>
         </div>
     </div>
