@@ -376,7 +376,7 @@ foreach($events AS $item){
     $tempdate1 = date('M', strtotime($item['date1']));
     $tempdate2 = date('d', strtotime($item['date1'])). ($item['date2'] ? '&ndash;' .date('d', strtotime($item['date2'])) : '');
     
-    echo "                        <li>" .$tempdate1. ' ' .$tempdate2. " <a href=\"http://" .$item['url']. "\" target=\"_blank\" title=\"More information about " .$item['title']. "\">" .$item['title']. "</a>" .($item['activity'] ? ' (' .$item['activity']. ')' : ''). "</li>\n";
+    echo "                        <li>" .$tempdate1. " " .$tempdate2. " <a href=\"http://" .$item['url']. "\" target=\"_blank\" title=\"More information about " .$item['title']. "\">" .$item['title']. "</a>" .($item['activity'] ? ' (' .$item['activity']. ')' : ''). "</li>\n";
 }
 
 ?>
